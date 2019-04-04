@@ -1,6 +1,6 @@
 # Good PPAs
 
-(package.png)[]
+![Good Ubuntu PPAs](package.png)
 
 This page (https://ppas.fosspost.org) contains a list of good personal package archives (PPAs) that can be added to Ubuntu to install tons of useful software. Useful for new Ubuntu (or Linux Mint) installations, as you can save it in your bookmarks!
 
@@ -11,4 +11,4 @@ Criteria for adding a repository:
 
 You can create a pull request after you modify the HTML page using the same structure. After it was merged, then in 1 hour, it will be live at ppas.fosspost.org.
 
-This is a FOSS Post project: fosspost.org.
+This is a FOSS Post project: https://fosspost.org.
