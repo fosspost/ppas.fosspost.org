@@ -1,6 +1,6 @@
 # Good PPAs
 
-(package.png)
+(package.png)[]
 
 This page (https://ppas.fosspost.org) contains a list of good personal package archives (PPAs) that can be added to Ubuntu to install tons of useful software. Useful for new Ubuntu (or Linux Mint) installations, as you can save it in your bookmarks!
 
