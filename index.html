@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<link rel="icon" 
+      type="image/png" 
+      href="package.png">
+  <title>Good PPAs</title>
+   <base href="https://ppas.fosspost.org/" target="_blank">
+  <meta name="description" content="This page contains a list of good personal package archives (PPAs) that can be added to Ubuntu to install tons of useful software.">
+  <meta name="author" content="FOSS Post">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<div id="container">
+  <div id="header">
+    <img src="package.png" />
+    <h1><a href="https://ppas.fosspost.org/">Good PPAs</a></h1>
+    <h2>This page contains a list of good personal package archives (PPAs) that can be added to Ubuntu to install tons of useful software. Useful for new Ubuntu (or Linux Mint) installations, as you can save it in your bookmarks!</h2>
+    <h3>Note that you shouldn't add all those PPAs together, but pick only what you need. Additionally, adding some of them (like the unstable ones) may cause your system to hang or stop working.</h3>
+  </div>
+  
+  <div id="list">
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">LibreOffice Fresh</div>
+        <div class="ppa-info"><p>Latest stable release of the LibreOffice office suite. This is an official PPA provided by the Document Foundation.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~libreoffice/+archive/ubuntu/ppa">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:libreoffice/ppa</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Updated Open Graphics Drivers</div>
+        <div class="ppa-info"><p>Bleeding edge updates for open drivers such as Intel. Also contains other graphics libraries updates. Adding this PPA can result in login issues and game issues, and removing it doesn't usually work easily, so add it on your own responsibility.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~oibaf/+archive/ubuntu/graphics-drivers">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:oibaf/graphics-drivers</pre>
+      </div>
+    </div>
+
+        <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Proposed Kernel</div>
+        <div class="ppa-info"><p>This PPA contains the proposed kernel images for various Ubuntu releases, allowing you to get newer kernel versions. Normally you could have installed those kernels from the proposed update channel, but if you just want the kernel (not all the other proposed packaged that would break your system), then this PPA is for you.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/proposed">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:canonical-kernel-team/proposed</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Grub Customizer</div>
+        <div class="ppa-info"><p>If you want to customize the GRUB screen of your system, either by look & feel or changing the boot settings and order (E.g booting other systems by default), then this tool can help you.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~danielrichter2007/+archive/ubuntu/grub-customizer">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:danielrichter2007/grub-customizer</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Boot Repair</div>
+        <div class="ppa-info"><p>Very useful tool to install on your Ubuntu's USB stick in case of boot issues. It simply repairs your GRUB bootloader on your hard disk and tries to make all installed systems on your disk bootable. If it fails, it can generate a log file for you to share. Offers advanced options.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~yannubuntu/+archive/ubuntu/boot-repair">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:yannubuntu/boot-repair</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">elementaryOS Stable</div>
+        <div class="ppa-info"><p>You can use this PPA to install elementaryOS software on your Ubuntu/Mint installations. Packages include the Pantheon desktop shell, AppCenter, elementary icons & themes, and many other more packages.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~elementary-os/+archive/ubuntu/stable/">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:elementary-os/stable</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Firefox ESR</div>
+        <div class="ppa-info"><p>Stable Firefox releases for enterprises. Those versions of Firefox usually receive only security updates, so they suffer less from the code changes or added/removed features.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~mozillateam/+archive/ubuntu/ppa">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:mozillateam/ppa</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Firefox Beta</div>
+        <div class="ppa-info"><p>If you want to test the new features of Firefox using the beta channel, then you can add this PPA.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~mozillateam/+archive/ubuntu/firefox-next">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:mozillateam/firefox-next</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Firefox Nightly</div>
+        <div class="ppa-info"><p>Daily builds of Firefox, contains the latest tests and features in Firefox browser.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~ubuntu-mozilla-daily/+archive/ubuntu/ppa">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">WebUpd8</div>
+        <div class="ppa-info"><p>PPA containing a lot of useful applications that are mostly updated to their latest versions.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~nilarimogard/+archive/ubuntu/webupd8">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:nilarimogard/webupd8</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Lubuntu Unstable</div>
+        <div class="ppa-info"><p>Daily builds of Lubuntu software and packages. Mainly featuring the LxQt desktop interface along with its libraries. Remember: Those are unstable daily builds.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~lubuntu-ci/+archive/ubuntu/unstable-ci">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:lubuntu-ci/unstable-ci</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Xubuntu QA Experimental</div>
+        <div class="ppa-info"><p>Daily builds of Xubuntu various packages, such as Xfce4 and Thunar. Those packages are not stable, and shouldn't be considered so.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/experimental">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:xubuntu-dev/experimental</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">FreeCAD</div>
+        <div class="ppa-info"><p>Latest stable release of FreeCAD; An open source 3D modeler software (alternative to autoCAD).</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:freecad-maintainers/freecad-stable</pre>
+      </div>
+    </div>
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Inkscape</div>
+        <div class="ppa-info"><p>Latest stable release of Inkscape; An open source professional quality vector graphics software. This is an official PPA.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~inkscape.dev/+archive/ubuntu/stable">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:inkscape.dev/stable</pre>
+      </div>
+    </div>
+
+
+
+    <div class="ppa">
+      <div class="info">
+        <div class="ppa-title">Shimmer Project Daily</div>
+        <div class="ppa-info"><p>This daily PPA contains the latest versions of the Xfce/Xubuntu themes and icons. It also contains an icon set for LibreOffice. You can safely add it to your system.</p></div>
+        <div class="ppa-url"><a href="https://launchpad.net/~shimmerproject/+archive/ubuntu/daily">PPA's page on Launchpad</a></div>
+      </div>
+      
+      <div class="commands">
+        <p>To add this PPA to your system:</p>
+        <pre>sudo add-apt-repository ppa:shimmerproject/daily</pre>
+      </div>
+    </div>
+           
+  </div>
+  
+<div id="footer">
+  <p>A <a href="https://fosspost.org">FOSS Post</a> project.</p>
+  <p>You can contact us at: contact[at]fosspost.org</p>
+  <p>DISCLAIMER: We take no responsibility or liability over the mentioned PPAs, adding them to your system is at your own responsibility.</p>
+  <p>To donate via BTC: 1F24s7x9tXBAByZcxjuq1ynebmK9zdyKsQ</p>
+</div>
+
+</div>
+</body>
+</html>

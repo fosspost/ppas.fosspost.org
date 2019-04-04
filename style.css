@@ -1,0 +1,108 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url("ubuntu.ttf");
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu;
+  background: #34465d;
+}
+
+#header {
+  margin: 0 auto;
+}
+
+#header > img {
+  width: 15%;
+  margin: 0 auto;
+  display: flex;
+}
+
+#container {
+  padding: 1em;
+  margin: 0 auto;
+  margin-top: 1em;
+  border-radius: 10px;
+  width: 80%;
+  background: #fff;
+}
+
+h1, h2, h3{
+  text-align: center;
+  font-weight: normal;
+}
+
+h1, h1 > a {
+  font-size: 30px;
+  color: #880E4F;
+}
+
+h2 {
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 14px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.ppa-url > a {
+  text-decoration: none;
+  color: #B71C1C;
+}
+
+.ppa-url > a:hover {
+  text-decoration: underline;
+}
+
+pre {
+  text-align: center;
+}
+
+.ppa {
+  display: flex;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.ppa-title, .commands > p {
+  font-size: 18px;
+  color: #880E4F;
+  text-align: center;
+}
+
+.ppa-info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info {
+  width: 50%;
+}
+
+.commands {
+  width: 50%;
+  margin-left: 10px;
+}
+
+#footer {
+  text-align: center;
+  font-size: 12px;
+}
