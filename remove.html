@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<link rel="icon" 
+      type="image/png" 
+      href="package.png">
+  <title>Good PPAs | How to remove?</title>
+  <meta name="description" content="This page contains a list of good personal package archives (PPAs) that can be added to Ubuntu to install tons of useful software.">
+  <meta name="author" content="FOSS Post">
+
+  <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+<div id="container">
+  <div id="header">
+    <img src="assets/package.png" />
+    <h1><a href="https://ppas.fosspost.org/">Good PPAs</a></h1>
+
+    <ul>
+      <li><a href="install.html">How do I install software from PPA?</a></li>
+      <li>||</li>
+      <li><a href="install.html">How do I remove a PPA/Undo?</a></li>
+    </ul>
+  </div>
+  
+  <div id="instructions">
+    <p>If you added a PPA to your system, but you no longer want it, then you can easily remove it using the <b>ppa-purge</b> tool. To do that, first install the tool via the following commands:</p>
+    <pre>sudo apt update
+    sudo apt install ppa-purge</pre>
+
+    <p>Now, if you want to remove a specific PPA, you have to have its full name (e.g fossproject/ppa). So for example, to purge the <b>fossproject/ppa</b> from your system:</p>
+    <pre>sudo ppa-purge ppa:fossproject/ppa</pre>
+
+    <p>And after that, the repository and its software will be removed from your system (if the PPA was just containing newer version of packages already installed before on your system and available in the official repositories, then they will be downgraded to the versions from the official repositories).</p>
+</div>
+<div id="footer">
+  <p>A <a href="https://fosspost.org">FOSS Post</a> project. <a href="https://github.com/fosspost/ppas.fosspost.org">Fork me at GitHub</a>.</p>
+  <p>You can contact us at: contact[at]fosspost.org</p>
+  <p>DISCLAIMER: We take no responsibility or liability over the mentioned PPAs, adding them to your system is at your own responsibility.</p>
+  <p>To donate via BTC: 1F24s7x9tXBAByZcxjuq1ynebmK9zdyKsQ</p>
+</div>
+
+</div>
+</body>
+</html>

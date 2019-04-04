@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<link rel="icon" 
+      type="image/png" 
+      href="package.png">
+  <title>Good PPAs | How to Install?</title>
+  <meta name="description" content="This page contains a list of good personal package archives (PPAs) that can be added to Ubuntu to install tons of useful software.">
+  <meta name="author" content="FOSS Post">
+
+  <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+<div id="container">
+  <div id="header">
+    <img src="assets/package.png" />
+    <h1><a href="https://ppas.fosspost.org/">Good PPAs</a></h1>
+
+    <ul>
+      <li><a href="install.html">How do I install software from PPA?</a></li>
+      <li>||</li>
+      <li><a href="remove.html">How do I remove a PPA/Undo?</a></li>
+    </ul>
+  </div>
+  
+  <div id="instructions">
+    <p>After you have added a PPA to your system, the easiest way to install the packages from it is via browsing its contents using the Synaptic package manager. First make sure Synaptic is installed via:</p>
+
+    <pre>sudo apt install synaptic</pre>
+
+    <p>Then open the application from your applications menus, you should be able to browse package lists by origin like the following image, use it to install pacakges (right click on the package --> install):</p>
+
+    <img src="assets/synaptic.png" style="max-width: 80%; margin: 0 auto;display: block;" />
+
+    <p>If you added a PPA which contains only new versions of a package already installed on your system (E.g LibreOffice PPA containing newer version of LibreOffice, drivers or kernel PPAs...), then just running an upgrade would be sufficient to get the new version:</p>
+
+    <pre>sudo apt update
+sudo apt upgrade</pre>
+</div>
+<div id="footer">
+  <p>A <a href="https://fosspost.org">FOSS Post</a> project. <a href="https://github.com/fosspost/ppas.fosspost.org">Fork me at GitHub</a>.</p>
+  <p>You can contact us at: contact[at]fosspost.org</p>
+  <p>DISCLAIMER: We take no responsibility or liability over the mentioned PPAs, adding them to your system is at your own responsibility.</p>
+  <p>To donate via BTC: 1F24s7x9tXBAByZcxjuq1ynebmK9zdyKsQ</p>
+</div>
+
+</div>
+</body>
+</html>
+

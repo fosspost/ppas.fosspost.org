@@ -55,9 +55,28 @@ h3 {
   color: #555;
 }
 
+ul {
+  text-decoration: none;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+ul > li {
+  display: inline-block;
+}
+
+ul > li > a {
+  color: #1e3799;
+}
+
+ul > li > a:hover {
+  text-decoration: underline;
+}
+
 p {
-  padding: 0;
-  margin: 0;
+  padding: 5px;
+  margin: 0px;
 }
 a {
   text-decoration: none;
@@ -73,6 +92,10 @@ a {
 
 pre {
   text-align: center;
+  font-size: 15px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
 }
 
 .ppa {
@@ -105,4 +128,10 @@ pre {
 #footer {
   text-align: center;
   font-size: 12px;
+}
+
+#instructions {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
